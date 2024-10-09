@@ -7,5 +7,5 @@ This is a very basic anime downloader based on @Quexii's downloader, but using N
 To access the downloader, visit https://anime.lunasa.dev
 
 ## Credits
-@Quexii - Scraper
-@Luna0x01 - UI and API
+- @Quexii | Scraper
+- @Luna0x01 | UI and API
