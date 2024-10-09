@@ -22,27 +22,24 @@ export default function () {
     <div className="min-h-screen flex items-center justify-center">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-4 bg-gray-800 p-8 rounded-lg"
+        className="flex flex-col gap-8 bg-zinc-800 p-8 rounded-lg"
       >
         <h1 className="text-2xl text-white">Login</h1>
 
-        <label className="text-white">
-          Enter your cookie:
-          <input
+        <input
             type="text"
             value={cookie}
             onChange={(e) => setCookie(e.target.value)}
-            className="p-2 mt-2 w-full rounded bg-gray-700 text-white"
-            placeholder="Enter cookie"
+            className="w-[500px] hover:bg-zinc-700 outline-none appearance-none text-sm rounded-lg bg-zinc-800 dark:focus:ring-blue-500 dark:focus:border-blue-500 border border-gray-600 px-4 py-2"
+            placeholder="Cookie"
             required
           />
-        </label>
 
         <button
           type="submit"
-          className="mt-4 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="bg-zinc-700 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-zinc-800 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white hover:bg-zinc-700 dark:focus:ring-blue-500 dark:focus:border-blue-500 outline-none"
         >
-          Submit
+          Login
         </button>
       </form>
     </div>
